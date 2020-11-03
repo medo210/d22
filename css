@@ -1,0 +1,44 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6,
+p, blockquote, a, em, img, b, u, i, center,
+dl, dt, dd, form, label, table,
+caption, tbody, tfoot, thead, tr, th, td,
+footer, header, time
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+body
+{
+ width: 100%;
+ font: 32px Arial;
+ color: #bcbfc4;
+ background-color: black;
+}
+
+.wrapper
+{
+	max-width: 480px;
+	margin: 0 auto;
+	margin-top:20px;
+}
+
+
+p
+{
+ color: #bcbfc4;
+}
+
+a
+{
+ color: #bcbfc4;
+ text-decoration: none;
+}
+
+.img_responsive{
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+}
